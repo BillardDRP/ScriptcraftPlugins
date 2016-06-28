@@ -5,4 +5,4 @@ On Desktop, create a folder named CanaryMod and drag the CanaryMod jar file into
 Run canarymod.jar once so that it can generate it's file system. 
 
 # Lagging?
-Check out this script to speed up CanaryMod
+Check out this [script](https://github.com/BillardDRP/CanaryModNoGui) to speed up CanaryMod
