@@ -1,5 +1,4 @@
 'use strict'
-
 var Drone = require('drone'),
     blocks = require('blocks');
     // Function 1 start- Sniper emblem
@@ -14,6 +13,6 @@ var Drone = require('drone'),
             .right(8)
             .back(8)
             .box(blocks.wool.red,1,1,16);
-          };
-          Drone.extend(art1)
-          // Activates drone
+          }
+Drone.extend(art1)
+// Activates drone

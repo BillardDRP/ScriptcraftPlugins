@@ -4,7 +4,6 @@ var Drone = require('drone'),
     blocks = require('blocks'),
     sounds = require('sounds');
 
-<<<<<<< HEAD
 function EntHouse() {
         this.up(1)
             .box0("168",7,5,8)
@@ -41,7 +40,7 @@ function EntHouse() {
             .fwd(1)
             .right(1)
             .box("0",6,4,7);
-=======
+
 function HouseEnt() {
   this.box0("5",8,4,8)
       .box("1",1,1,1)
@@ -53,6 +52,5 @@ function HouseEnt() {
       .door();
       // sounds.successful_hit();
   // sounds.play(BLOCK_WOOD_PRESSUREPLATE_CLICK_ON,self);
->>>>>>> origin/Beta
     };
-Drone.extend(EntHouse)
+Drone.extend(EntHouse);
